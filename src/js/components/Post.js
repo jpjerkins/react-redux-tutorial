@@ -9,7 +9,7 @@ export class Post extends Component {
 
 	componentDidMount() {
 		// Calling the new action creator
-		this.props.getData();
+		this.props.getData('https://jsonplaceholder.typicode.com/posts');
 	}
 
 	render() {
