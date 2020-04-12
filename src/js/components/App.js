@@ -3,6 +3,8 @@ import List from './List';
 import Form from './Form';
 import Post from './Post';
 
+// From https://www.valentinog.com/blog/redux/
+
 const App = () => (
 	<>
 		<div>
